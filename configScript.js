@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function(){
             charValue.value = ""
             genValue.value = ""
     
-            window.location = "genPage.html"
+            window.location = "./genPage"
             function setItem(id, value) {
                 localStorage.setItem(id, value.toString());
             }
