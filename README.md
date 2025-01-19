@@ -81,7 +81,7 @@ if (randomNum === 0) {
 <div align="center">
 <div>
 <h3>Codes/passwords editor</h3>
-  <img src="Media/mdMedia/generateUI.png" alt="project-screenshot" width="600" height="400">
+  <img src="Media/mdMedia/generateUI.png" alt="project-screenshot" style="width: 500px; height: 300px border-radius:20px">
 </div>
 <h3>Code generations</h3>
  <img src="Media/mdMedia/code1.png" alt="project-screenshot"  style="width: 500px; height: 300px">
