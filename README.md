@@ -1,7 +1,7 @@
 <h1 align="center" id="title">Your passwords and codes generator</h1>
 
 <p align="center">
-  <img src="Media/CGimg.png" alt="project-image" style="width: 500px; height: 300px">
+  <img src="Media/CGimg.png" alt="project-image" style="width: 40%; height: 300px">
 </p>
 
 <p id="description">
@@ -84,9 +84,9 @@ if (randomNum === 0) {
   <img src="Media/mdMedia/generateUI.png" alt="project-screenshot" style="width: 500px; height: 300px border-radius:20px">
 </div>
 <h3>Code generations</h3>
- <img src="Media/mdMedia/code1.png" alt="project-screenshot"  style="width: 500px; height: 300px">
-  <img src="Media/mdMedia/code2.png" alt="project-screenshot" style="width: 500px; height: 300px">
-  <img src="Media/mdMedia/code3.png" alt="project-screenshot" style="width: 500px; height: 300px">
+ <img src="Media/mdMedia/code1.png" alt="project-screenshot"  style="width: 500px; height: 250px">
+  <img src="Media/mdMedia/code2.png" alt="project-screenshot" style="width: 500px; height: 250px">
+  <img src="Media/mdMedia/code3.png" alt="project-screenshot" style="width: 500px; height: 250px">
 </div><br></br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-62b1ff?style=for-the-badge&logo=web&logoColor=white)](https://www.gigicodeace.com)
