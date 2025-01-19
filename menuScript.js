@@ -13,7 +13,7 @@ startBTN.addEventListener("click", function(){
     window.location = "./CGconfig";
 });
 
-function idkNameYet() {
+function numbersGenerate() {
     A1length++
     if (A1length == 50) {
         boolean = true
@@ -33,5 +33,5 @@ function idkNameYet() {
     Array2.push(randNum2)
 }
 
-setInterval(idkNameYet, 15)
+setInterval(numbersGenerate, 15)
     

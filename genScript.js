@@ -139,15 +139,15 @@ if (randomNum === 0) {
 
 setInterval(render, 25);
 
-function idknameyet() {
+function background() {
   int++;
   ArrayUI.push(GIGI);
   ArrayUI.push(ty);
   nrScUI.textContent = ArrayUI.join(" // ");
 
   if (int < 250) {
-    setTimeout(idknameyet, 2);
+    setTimeout(background, 2);
   }
 }
 
-idknameyet();
+background();

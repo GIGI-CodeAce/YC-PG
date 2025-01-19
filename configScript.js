@@ -189,7 +189,7 @@ function idkNameYet() {
     }
     setInterval(idkNameYet, 25)
 
-    function hiddenFunc(template){
+    function coloringBoiler(template){
         hiddenEl2.style.backgroundColor = "hsla(240, 100%, 70%, 0.233)";
         template.style.borderColor = "hsl(240, 100%, 70%)"
         template.style.color = "hsl(240, 100%, 70%)"
@@ -202,7 +202,7 @@ function idkNameYet() {
             templateTwo.style.borderColor = "black"
             templateTwo.style.color = "black"
             }
-            hiddenFunc(templateOne)
+            coloringBoiler(templateOne)
             setTimeout(() => {
                 hiddenEl2.style.backgroundColor = "hsla(240, 100%, 70%, 0.192)";
             }, 222);
@@ -213,7 +213,7 @@ function idkNameYet() {
             templateOne.style.borderColor = "black"
             templateOne.style.color = "black"
             }
-            hiddenFunc(templateTwo)
+            coloringBoiler(templateTwo)
             setTimeout(() => {
                 hiddenEl2.style.backgroundColor = "hsla(240, 100%, 70%, 0.192)";
             }, 222);
