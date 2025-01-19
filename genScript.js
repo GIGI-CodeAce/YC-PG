@@ -91,11 +91,9 @@ function render() {
   }
   if (!specialsBN) {
     cut(2)
-  }
-  if (!charactersBN) {
+  }if (!charactersBN) {
     cut(1)
-  }
-  if (!numbersBN) {
+  }if (!numbersBN) {
     cut(0)
   }
 
