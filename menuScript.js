@@ -10,7 +10,7 @@ let boolean = false
 const startBTN = document.getElementById("start-btn")
 
 startBTN.addEventListener("click", function(){
-    window.location = "./Generation/CGconfig";
+    window.location = "../Editor/CGconfig";
 });
 
 function numbersGenerate() {
