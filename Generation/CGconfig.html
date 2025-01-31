@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Configuration</title>
+    <link rel="stylesheet" href="configStyle.css">
+        <link rel="icon" type="image/png" href="Media/CGimg.png">
+</head>
+<body>
+
+    <main>
+        <a href="./CGmenu"><span id="back-btn">< Home Page</span></a><br>
+        <h1 id="top">Setup&nbsp;<span id="you">your</span>&nbsp;own code pattern</h1>
+        <hr>
+        <div class="layer1">
+            <h3>Insert your codes lenght:</h3>
+            <input type="number" id="Characters-quantity" min="1" max="35" placeholder="1-35">
+        </div>
+        <h2>Do you want your code to contain:</h2>
+        <div class="layer2">
+            <div class="number-characters">
+                <h3>Number characters</h3>
+                <button id="yes-numbers" > Yes</button>
+                <button id="no-numbers">No</button>
+            </div>
+                <div class="letter-characters">
+                <h3>Letter characters</h3>
+                <button id="yes-letters">Yes</button>
+                <button id="no-letters">No</button>
+            </div>
+            <div class="special-characters">
+                <h3>Special characters</h3>
+                <button id="yes-special">Yes</button>
+                <button id="no-special">No</button>
+            </div>
+        </div>
+        <div class="hidden1">
+            <span>Use capital letters?</span><br>
+            <button id="yes-caps">Yes</button>
+            <button id="no-caps">No</button>
+        </div>
+        <h2>How many codes do you want:</h2>
+        <div class="layer3">
+            <input type="number" id="generates-quantity" min="1" placeholder="##">
+        </div>
+        <h2>Other patterns:</h2>
+        <div class="layer4">
+            <div class="template1">000-000-..</div>
+            <h5 id="un-select">OR</h5>
+            <div class="template2">0000-0000-</div><br>
+        </div>
+        <div class="hidden2">
+            <span>Replace " - " ?</span><br>
+            <input type="text" id="join-pattern" maxlength="1" placeholder="#">
+        </div>
+        <div class="layer5">
+            <button id="generate-btn">GENERATE</button>
+            <h4 id="errors"></h4>
+            <hr>
+        </div>
+        <footer>
+            <h3 id="nrSC">0</h3>
+            <h3 id="GIGI">GIGI-CodeAce</h3>
+            </footer>
+
+        </main>
+
+    <script type="module" src="configScript.js"></script>
+</body>
+</html>
