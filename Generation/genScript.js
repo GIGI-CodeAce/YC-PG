@@ -1,4 +1,4 @@
-import { Characterss, Numberss, Specials, charQuan, genQuan, tempSelected, joinType, Uppers } from './configScript.js';
+import { Characterss, Numberss, Specials, charQuan, genQuan, tempSelected, joinType, Uppers } from '/YC-PG/Generation/GenPage.html';
 
 let GIGI = "GIGI-CodeAce";
 let ty = "Thanks-ForUsingYC&PG";
