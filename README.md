@@ -8,7 +8,7 @@
 YP & CG, your go-to website for customization in code creation.A platform where you have the freedom to craft specific code patterns for your numerous needs and create as many as you need.
 </p>
 
-<h2 align="center">Play here</h2>
+<h2 align="center">Visit here</h2>
 
 <div align="center">
   <a href="https://gigi-codeace.github.io/YC-PG/CGmenu">github.io/YC-PG/Menu</a>
