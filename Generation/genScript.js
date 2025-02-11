@@ -1,4 +1,4 @@
-import { Characterss, Numberss, Specials, charQuan, genQuan, tempSelected, joinType, Uppers } from '/YC-PG/Generation/GenPage.html';
+import { Characterss, Numberss, Specials, charQuan, genQuan, tempSelected, joinType, Uppers } from '/YC-PG/Editor/configScript';
 
 let GIGI = "GIGI-CodeAce";
 let ty = "Thanks-ForUsingYC&PG";
@@ -11,6 +11,9 @@ let numbersBN = true;
 let specialsBN = false;
 let capsBN = false
 let count = 0;
+
+console.log(Characterss);
+
 
 switch (Numberss) {
   case 1:
