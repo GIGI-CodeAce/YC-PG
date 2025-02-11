@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function(){
             charValue.value = ""
             genValue.value = ""
     
-            window.location = "/YC-PG/GenPage";
+            window.location = "../Generation/GenPage";
 
             function setItem(id, value) {
                 localStorage.setItem(id, value.toString());
