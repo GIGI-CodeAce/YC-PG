@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function(){
     const nrScUI = document.getElementById("nrSC");
 
     const templates = document.querySelector(".layer4");
-    const templateTwo = templates.querySelector(".template2");
     const templateOne = templates.querySelector(".template1");
+    const templateTwo = templates.querySelector(".template2");
     const hiddenEl2 = document.querySelector(".hidden2")
     const hiddenEl1 = document.querySelector(".hidden1")
 

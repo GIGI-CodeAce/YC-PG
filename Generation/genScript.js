@@ -13,7 +13,11 @@ let specialsBN = false;
 let capsBN = false
 let count = 0;
 
+ let liContent = "";
+
 console.log(Characterss);
+console.log(liContent);
+
 
 
 switch (Numberss) {
@@ -65,7 +69,7 @@ if (capsBN) {
 
 const specialCharacters = [
   '!', '@', '#', '$', '%', '^', '&', '*', '(', ')',
-  '-', '_', '+', '=', '[', ']', '{', '}', '|', '\\',
+  '-', '_', '+', '=', '[', ']', '{', '}', '|',
   ';', ':', '"', '\'', ',', '.', '/', '?'
 ];
 
@@ -75,14 +79,23 @@ function getRandomItemFromArray(array) {
 }
 
 
-document.body.addEventListener("click", event => {
-  if (event.target.classList.contains(`copy-btn`)) {
-    event.target.textContent = "soon.";
+document.body.addEventListener("click", async (event) => {
+  if (event.target.classList.contains("copy-btn")) {
+    try {
+      await navigator.clipboard.writeText(liContent)
+      event.target.textContent = "copied"
+    } catch (err) {
+      event.target.textContent = "error"
+      console.error("Clipboard copy failed:", err)
+    }
+
     setTimeout(() => {
-      event.target.textContent = "copy";
+      event.target.textContent = "copy"
     }, 696);
   }
 });
+
+
 
 
 function render() {
@@ -103,7 +116,6 @@ function render() {
 
   if (count < genQuan) {
     count++;
-    let liContent = "";
     let temp = 0;
 
     for (let i = 0; i < charQuan; i++) {
@@ -152,4 +164,4 @@ function background() {
   }
 }
 
-background();
+background()
