@@ -4,7 +4,7 @@
   <img src="Media/CGimg.png" alt="project-image" style="width: 40%; height: 300px">
 </p>
 
-<p id="description">
+<p id="description" align="center">
 YP & CG, your go-to website for customization in code creation.A platform where you have the freedom to craft specific code patterns for your numerous needs and create as many as you need.
 </p>
 
@@ -77,16 +77,16 @@ if (randomNum === 0) {
   }}
 // ...
 ```
-<h2 align="center">Project Screenshots:</h2>
+<h2 align="center">Project Screenshots</h2>
 <div align="center">
 <div>
 <h3>Codes/passwords editor</h3>
   <img src="Media/mdMedia/generateUI.png" alt="project-screenshot" style="width: 500px; height: 300px border-radius:20px">
 </div>
 <h3>Code generations</h3>
- <img src="Media/mdMedia/code1.png" alt="project-screenshot"  style="width: 500px; height: 250px">
-  <img src="Media/mdMedia/code2.png" alt="project-screenshot" style="width: 500px; height: 250px">
-  <img src="Media/mdMedia/code3.png" alt="project-screenshot" style="width: 500px; height: 250px">
+ <img src="Media/mdMedia/code1.png" alt="project-screenshot"  style="width: 500px; height: 260px">
+  <img src="Media/mdMedia/code2.png" alt="project-screenshot" style="width: 500px; height: 260px">
+  <img src="Media/mdMedia/code3.png" alt="project-screenshot" style="width: 500px; height: 260px">
 </div><br></br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-62b1ff?style=for-the-badge&logo=web&logoColor=white)](https://www.gigicodeace.com)
